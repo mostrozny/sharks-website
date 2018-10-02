@@ -121,6 +121,7 @@ nav {
       ul {
         display: inline-flex;
         li {
+          height: 100%;
           @extend %dropdown;
           padding-left: 25px;
           position: relative;
