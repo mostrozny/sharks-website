@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="pl-PL">
 <head>
-    <meta charset="UTF-8">
     <title>Zadanie rekrutacyjne</title>
-    <!--   <link href="fonts/font-awesome.min.css" rel="stylesheet">-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
@@ -14,7 +12,6 @@
     <link rel="stylesheet" href="./css/animate.min.css">
 
     <script src="./js/swiper.min.js"></script>
-
     <script src="./js/out.js"></script>
 
 
@@ -40,11 +37,11 @@
                         </li>
                     </ul>
                 </li>
-                <li><a href="#">Aktualności</a></li>
-                <li><a href="#">Kontakt</a></li>
+                <li><a href="#news">Aktualności</a></li>
+                <li><a href="#contact">Kontakt</a></li>
             </ul>
         </div>
-        <div class="searchEngine">
+        <div class="search-engine">
             <input type="text" placeholder="Szukaj na stronie..."/>
             <button class="button-blue">Szukaj</button>
         </div>
@@ -128,12 +125,12 @@
         </article>
     </div>
 </section>
-<section class="news">
+<section class="news" id="news">
     <div class="container">
         <article>
-            <h3 class="wow shake">Aktualności</h3>
+            <h3>Aktualności</h3>
             <div>
-                <article class="wow zoomIn" >
+                <article class="wow zoomIn">
                     <div class="article-miniature">
 
                     </div>
@@ -214,42 +211,42 @@
     <div class="container">
         <h5>Newsletter</h5>
         <form>
-            <input type="text" placeholder="Imię" />
-            <input type="email" placeholder="Adres e-mail" />
-            <input type="submit" value="Zapisz się" />
+            <input type="text" placeholder="Imię"/>
+            <input type="email" placeholder="Adres e-mail"/>
+            <input type="submit" value="Zapisz się"/>
         </form>
     </div>
 </section>
-<footer class="wow fadeInUp">
+<footer class="wow fadeInUp" id="contact">
     <div class="container">
         <div class="end-info">
             <menu>
-               <ul>
-                   <li><a href="#">Strona główna</a></li>
-                   <li>
-                       <a href="#">O nas &#9660;</a>
-                       <ul class="nav-dropdown">
-                           <li>
-                               <a href="">Test1</a>
-                           </li>
-                           <li>
-                               <a href="">Test2</a>
-                           </li>
-                           <li>
-                               <a href="">Test3</a>
-                           </li>
-                       </ul>
-                   </li>
-                   <li><a href="#">Aktualności</a></li>
-                   <li><a href="#">Kontakt</a></li>
-               </ul>
+                <ul>
+                    <li><a href="#">Strona główna</a></li>
+                    <li>
+                        <a href="#">O nas &#9660;</a>
+                        <ul class="nav-dropdown">
+                            <li>
+                                <a href="">Test1</a>
+                            </li>
+                            <li>
+                                <a href="">Test2</a>
+                            </li>
+                            <li>
+                                <a href="">Test3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#news">Aktualności</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
             </menu>
-             <span>
+            <span>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in tincidunt nulla. Duis at purus blandit diam laoreet vestibulum. Donec mi est, <b>sollicitudin quis nisi accumsan, luctus posuere libero.</b> Cras mollis dapibus fringilla. Nulla sit amet ex at dui accumsan tempor. Vestibulum dapibus mi sit amet arcu imperdiet varius. Curabitur a felis interdum, dictum est in, ornare urna.
              </span>
         </div>
-        <div class="end-footer ">
-            <hr />
+        <div class="end-footer">
+            <hr/>
             <span>&copy; Copyright 2018 - <a href="https://rekinysukcesu.pl">RekinySukcesu.pl</a></span>
             <a href="#up">Powrót na górę</a>
         </div>

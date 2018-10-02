@@ -25,17 +25,4 @@ document.addEventListener('DOMContentLoaded', () => {
                 return '<span class="' + className + '">' + (index + 1) + '</span>';
             }
         });
-
-
-        //DROPDOWN
-
-    /*    document.querySelector('#dropdown').addEventListener('click', function (e) {
-            e.preventDefault();
-            const dropdown = document.querySelector('.nav-dropdown');
-            if (dropdown.style.display == "flex") {
-                dropdown.style.display = "none";
-            } else {
-             dropdown.style.display = 'flex';
-            }
-        })*/
 });
