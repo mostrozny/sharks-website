@@ -1,10 +1,10 @@
 import WOW from 'wow.js';
+import Swiper from 'swiper'
 
 document.addEventListener('DOMContentLoaded', () => {
     new WOW().init();
 
     //SWIPER
-        const swipers = document.querySelector(".swiper-container");
         const mySwiper = new Swiper('.swiper-container', {
             // Optional parameters
             direction: 'horizontal',
